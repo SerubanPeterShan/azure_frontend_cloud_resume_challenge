@@ -1,5 +1,5 @@
 
 
-fetch('https://6revb97620.execute-api.ca-central-1.amazonaws.com/aws-Visitor-Count').then(reponse=>reponse.json()).then((data)=>{
-    document.getElementById('visitor-count').innerText=data.count
+fetch('https://vis-count-azure.azurewebsites.net/api/azure0visi0count?code=BKlx6E0L1nm7AIFMm80D_ywWsnAeiNx0oU0CyXC3ambaAzFuX3nFng==').then(reponse=>reponse.json()).then((data)=>{
+    document.getElementById('Visitorcount').innerText=data.count
 })
